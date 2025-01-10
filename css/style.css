@@ -1,0 +1,51 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* google fonts */
+
+.container{
+    display: flex;
+    justify-content:center;
+    height: 100dvh;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    cursor: pointer;
+    padding: 20px 22px;
+}
+
+.increase{
+    background-color:rgba(25, 218, 25, 0.966);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family:"Nunito Sans", serif ;
+    
+}
+
+.decrease{
+    background-color:red;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family:"Nunito Sans", serif ;
+    
+}
+
+.reset{
+    background-color:rgb(244, 244, 20);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family:"Nunito Sans", serif ;
+    
+}
+
+#counter{
+    color: blueviolet;
+   
+}
